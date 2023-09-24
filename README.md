@@ -1,25 +1,27 @@
-# TwitEng: A Mini Twitter Engine
-Welcome to TwitEng, a sophisticated yet minimalistic Twitter-like engine built to showcase advanced C++ programming techniques.
+# TwitEng: C++ Twitter Simulation Engine
 
-## Features
-### Command Handling with Chain of Responsibility Pattern:
-The engine's command handling efficiently leverages the Chain of Responsibility design pattern, ensuring scalable and maintainable code. Classes like QuitHandler, AndHandler, and more, each handle specific user commands.
+## Overview
+**TwitEng** is a C++ implementation that simulates core functionalities of Twitter, highlighting proficiency in various aspects of advanced C++ programming.
 
-### Advanced Search Functionality:
-Users can perform advanced tweet searches using AND/OR logic, allowing for intricate query capabilities.
-### Dynamic Memory Management:
-The code reflects a keen understanding of dynamic memory allocation and deallocation in C++, ensuring efficient memory usage.
+## Key Features
+### Command Handling:
+- Utilizes the Chain of Responsibility design pattern.
+- Efficient delegation of command processing using classes such as `QuitHandler`, `AndHandler`, and more.
 
-## Design & Structure
-Diving into the project's architecture, you'll find object-oriented programming at its finest. With classes encapsulating the core functionalities of users, tweets, handlers, and the engine itself, the project is modular and extensible.
+### Search Capabilities:
+- Provides the ability to execute tweet searches employing AND/OR operations for complex query handling.
 
-Notable design decisions include:
-### Overloaded operators for easy interactions.
-### Stream manipulations for fluid string handling.
-### Thorough error checks for robustness.
+### Memory Management:
+- Implements dynamic memory allocation and deallocation in C++, optimizing resource usage.
 
-## File Handling & I/O
-The engine boasts file input/output operations, enabling real-time tweet feeds and data storage. Users can view personalized feeds, stored in individual files, generated with impeccable formatting.
+## Architectural Details
+The design of TwitEng is grounded in modular object-oriented programming principles. The project structure comprises classes that encapsulate the fundamental operations of tweets, users, handlers, and the core engine. Some design specifics include:
+- Overloading of operators to facilitate object interactions.
+- Effective use of stream manipulations for string parsing and processing.
+- Incorporation of error checks to enhance system robustness.
 
-## Contributing & Feedback
-While this project primarily serves as a demonstration of programming prowess, contributions and feedback are welcome! Delve in, explore, run the engine, and feel free to suggest enhancements or report issues. Your insights are invaluable.
+## File Operations
+TwitEng is equipped with file input/output functionalities, designed for storing and retrieving tweet feeds. The systematic storage allows users to retrieve personalized tweet feeds from distinct files.
+
+## Contributions
+Though the primary purpose of this project is to demonstrate advanced programming capabilities, constructive feedback and contributions to enhance the functionality or rectify issues are appreciated.
